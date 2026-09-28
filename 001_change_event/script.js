@@ -6,7 +6,7 @@ city.addEventListener('change', cityChange)
 
 function cityChange() {
     //console.log('Műkdik')
-    const selectedCity = city.value
+    const selectedCity = city.value.toLowerCase()
     //console.log(selectedCity)
     
     const demo = document.querySelector('#demo')
